@@ -1,10 +1,10 @@
- #Project JSON Table Viewer
+ # Project JSON Table Viewer
  
  A jQuery based plugin to display Javascript Objects/Arrays into a table based structure.
  
- ##Sample Usage: [HTML]
+ ## Sample Usage: [HTML]
  
- `
+ ```
  <pre id='jsonView'></pre>
 
  <script src="./path/to/jsonViewer.js"></script>
@@ -14,9 +14,9 @@
   var jsonObject={name:"Aniruddha Sarkar",country:"India"}; //The object to be converted into table.
   $('#jsonView').jsonTable(jsonObject,options); //Displaying the JS Object/Array
  </script>
- `
+ ```
  
- ##Options:
+ ## Options:
  1. bootstrap     : Whether to use the bootstrap classes or not. Default=true.
  2. arrayIndex    : Whether to view the indices of array elements. Default=false.
  3. tableBordered : Whether to use borders in table. Requires bootstrap to be enabled. Default=false.
